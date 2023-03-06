@@ -1,0 +1,190 @@
+
+
+.logo {
+    display: flex;
+    position: relative;
+}
+.main{
+    position: fixed;
+    top: 0;
+}
+.name {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 800;
+    font-family: 'Bungee Spice', cursive;
+    text-shadow: 2px 1px #79cafc;
+}
+
+.search {
+    height: 30px;
+    margin-top: 15px;
+    margin-left: 80px;
+    display: flex;
+    position: relative;
+    width: 430px;
+
+}
+
+.width {
+    width: 500px;
+}
+
+
+.line {
+    position: absolute;
+    left: 380px;
+    width: 1px;
+    background: rgb(15, 14, 14);
+    height: 30px;
+
+}
+
+input::placeholder {
+    opacity: .5;
+    color: rgb(2, 0, 4);
+    font-size: 15px;
+    font-weight: 900;
+    
+}
+
+input {
+    border: none;
+    outline: none;
+}
+
+.search {
+
+    position: relative;
+    border: 1px solid black;
+    padding: 5px;
+
+    border-radius: 10px;
+    border-color: grey;
+    
+}
+
+.icon {
+    position: absolute;
+    left: 390px;
+}
+
+.home {
+
+    display: flex;
+    position: absolute;
+    left: 900px;
+    margin-top: 28px;
+    color: slategray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+}
+
+.podcasts {
+
+    display: flex;
+    position: absolute;
+    left: 975px;
+    margin-top: 28px;
+    color: slategray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+}
+
+.download {
+
+    display: flex;
+    position: absolute;
+    left: 1075px;
+    margin-top: 28px;
+    color: slategray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+}
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+.bg{
+
+    display: flex;
+    position: absolute;
+    left: 1175px;
+    margin-top: 18px;
+    
+}
+.lang{
+
+    display: flex;
+    position: absolute;
+    left: 1230px;
+    margin-top: 28px;
+    
+}
+.sign {
+
+    display: flex;
+    position: absolute;
+    left: 1300px;
+    margin-top: 28px;
+    color: slategray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+}
+
+
+
+.dropdown {
+   
+    background-color: rgb(3, 3, 3);
+    padding: 5px;
+    width: 200px;
+    padding-left: 30px;
+    padding-right: 30px;
+    
+    justify-content: center;
+    align-items: center;
+    display: none;
+    margin-top: 80px;
+    color: aquamarine;
+    margin-left: 540px;
+    border-radius: 10px;
+    
+}
+.select{
+    text-align: center;
+}
+
+.first{
+    margin-top: 150px;
+   
+   
+}
+.infi{
+    margin-top:1px;
+    text-decoration: solid;
+    text-shadow:10px;
+    color: chocolate;
+    font-size:20px;
+    
+}
+.posterbody{
+   display: flex;
+}
+.slowly{
+    margin-left:80px;
+    margin-top: 150px;
+}
+
+.summer{
+    margin-left:80px;
+    margin-top: 150px;
+}
+.summ{
+    margin-top:1px;
+    text-decoration: solid;
+    text-shadow:10px;
+    color: chocolate;
+    font-size:20px;
+    
+}

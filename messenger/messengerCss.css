@@ -1,0 +1,227 @@
+.photo {
+    display: flex;
+    padding-left: 20px;
+    margin-top: 20px;
+}
+
+.leftsection {
+    width: 60%;
+    /* background-color: red; */
+}
+
+.text1 {
+
+    margin-left: 20px;
+    display: flex;
+    font-size: 60px;
+    background: linear-gradient(81.84deg, #0099ff -9.4%, #a033ff 51.57%, #ff5280 84.07%, #ff7061 90.59%);
+    -webkit-background-clip: text;
+    color: transparent;
+    display: inline-block;
+    font-size: 70px;
+    font-weight: 700;
+    letter-spacing: -2px;
+    line-height: 52px;
+    padding: 0 0 8px;
+    text-align: left;
+    word-break: break-word;
+}
+
+.text1 {
+    line-height: 1.35;
+    font-family: Helvetica, sans-serif;
+}
+
+.text2 {
+    display: flex;
+    padding-left: 20px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    ;
+
+}
+
+.form input {
+    padding-left: 20px;
+    border-radius: 8px;
+    padding: 6px 20px;
+    border: 0px;
+    background-color: rgb(215, 215, 215)
+}
+
+.form {
+    padding: 20px;
+    border: 1px solid rgba(224, 220, 220, 0.068);
+
+}
+
+.login {
+    padding-left: 20px;
+
+}
+
+.login button {
+    background-color: #089dfa;
+    border-radius: 15px;
+    padding: 8px 15px;
+    border: 0px;
+    color: aliceblue;
+    font-weight: bold;
+}
+
+.forget {
+    color: #0099ff;
+    margin-left: 15px;
+    font-size: small;
+}
+
+.loginmain {
+    display: flex;
+    align-items: center;
+    row-gap: 5px;
+
+}
+
+.main {
+    display: flex;
+}
+
+
+.right1 {
+    padding: 15px;
+    font-weight: 600;
+}
+
+.right2 {
+    padding: 15px;
+    font-weight: 600;
+}
+
+.right3 {
+    padding: 15px;
+    font-weight: 600;
+}
+
+.right0 {
+    padding: 15px;
+    font-weight: 600;
+}
+
+.right4 {
+    padding: 15px;
+    font-weight: 600;
+}
+
+.rightsection {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.check {
+    padding: 15px;
+    font-weight: 100;
+}
+
+.appstore {
+    padding: 15px;
+    font-weight: 100;
+    cursor: pointer;
+}
+
+.appstore button {
+    background-color: #070708;
+    border-radius: 15px;
+    padding: 8px 15px;
+    border: 0px;
+    color: aliceblue;
+    font-weight: bold;
+}
+
+.appstore:hover {
+    color: rgb(82, 16, 16);
+    background: rgb(129, 191, 232);
+    box-shadow: 0 0 5px rgb(234, 146, 215);
+    border-radius: 25px;
+}
+
+.cell {
+    padding-right: 10px;
+    transform: scale(1.8);
+    padding: 5px 15px;
+}
+
+.microsoft {
+    padding: 15px;
+    font-weight: 100;
+
+}
+
+.microsoft button {
+    background-color: #070708;
+    border-radius: 15px;
+    padding: 8px 15px;
+    border: 0px;
+    color: aliceblue;
+    font-weight: bold;
+}
+
+.microsoft:hover {
+    color: rgb(82, 16, 16);
+    background: rgb(129, 191, 232);
+    box-shadow: 0 0 5px rgb(234, 146, 215);
+    border-radius: 25px;
+}
+
+.cell1 {
+    padding-right: 10px;
+    transform: scale(1.8);
+    padding: 5px 20px;
+
+
+}
+
+.download {
+    display: flex;
+}
+
+.pp1 {
+    margin-bottom: 100px;
+    border-radius: 5px;
+}
+
+.pp1:hover {
+    transform: scaleX(-1);
+}
+
+
+
+.about {
+    display: flex;
+
+}
+
+.download{
+    display: flex;
+}
+
+.p{
+ display: flex;
+ justify-content: space-between;
+}
+.gap{
+    margin-left: 20px;
+}
+.eye{
+    position: relative;
+    width: fit-content;
+
+}
+.eyeinside{
+    position: absolute;
+    top: 6;
+    right: 3;
+    cursor: pointer;
+}
+

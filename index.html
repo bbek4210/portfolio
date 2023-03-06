@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bibek Bhandari</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/f835eee1c5.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="images/logo.jpg" class="logo" />
+
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i  class="fas fa-times" onclick="closemenu()"></i>
+          </ul>
+          <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>
+                UI/UX Designer
+                <h1>Hi, I'm<span> Bibek </span><br>Bhandari From Nepal</h1>
+            </p>
+
+
+            <div class="social-icons">
+                <a href="https://www.facebook.com/profile.php?id=100047717505359"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://twitter.com/bibEkBh077"><i class="fa-brands fa-twitter-square"></i></a>
+                <a href="https://www.instagram.com/bibek_bhandari_10/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/bibek-bhandari-233910268/"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/bbek4210"><i class="fa-brands fa-github"></i></a>
+                <a href=" https://t.me/Bbeekk733"><i class="fa-brands fa-telegram"></i></a>
+
+            </div>
+
+
+        </div>
+      </div>
+    </div>
+    <!-- ----------------------about------------------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/col1.jpg">
+                </div>
+                <div class="about-col-2">
+                <h1 class="sub-title"> About Me</h1>
+                <p>
+                     Hi, I'm Bibek, a Frontend Web Developer.
+                     I was born and raised in Nepal.
+                    My main expertise lies in software design,UI/UX, though I do dabble in logo design and illustration, Video Editor,Social Media Handler & Content Creator. I am an enthusiastic, self-motivated, reliable, responsible and hard working person.
+                    If you like my site, don’t hesitate to reach out! Currently, I am pursuing my bachelor 's in Computer Application(BCA)</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link"  onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links"onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links"onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>UI/UX</span><br>Designing WEB/App interfaces</li>
+                        <li><span>Web Development</span><br>Web app Development</li>
+                        <li><span>Graphics Designer</span><br>Designing logos, & edits</li>
+                        <li><span>Social Media Handler</span><br>Content Creator, Post Designer</li>
+
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience"> 
+                    <ul>
+                        <li><span>2023 </span><br>UI/UX Design Training at 5 days worshop program</li>
+                        <li><span>2021 - 2022</span><br>Social Media Manager at SACAN</li>
+                        <li><span>2021 - 2022</span><br>FrontEnd Developer at SACAN</li>
+                        <li><span>2022 - 2023</span><br>Internship at ALFA BETA INTERNATIONAL ORG.</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>From 2021 to current</span><br>BCA from Tribhuvan University</li>
+                        <li><span>2020</span><br>Management In Computer Science at New Horizon College</li>
+                        <li><span>School level</span><br>SEE at 2074 at Dawn Model School</li>
+                    </ul>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ----------------services-------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div> 
+                    <i class="fa-solid fa-code"></i>
+                    <h2> Web Design</h2>
+                    <p>Web design refers to the design of websites that are displayed on the internet. 
+                        It usually refers to the user experience aspects of website development rather than software development.</p>
+                    <a href="#">Learn more</a>
+                </div>
+
+                <div> 
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2> UI/UX design</h2>
+                    <p> Image result for ui ux define
+                        UX design involves managing the user journey as they interact with a product or service,
+                         while UI design focuses on the actual construction of that product or service's interface. </p>
+                    <a href="#">Learn more</a>
+                </div>
+
+                <div> 
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2> App Design</h2>
+                    <p> App design is an ongoing process comprising user experience (UX) and user interface (UI) elements.</p>
+                    <a href="#">Learn more</a>
+                </div>
+
+
+
+            </div>
+        </div>
+    </div>
+    <!-- ---------------portfolio----------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p> created Messenger Front Login page by ownself.Click arrow to visit the work.</p>
+                        <a href="messenger/messengerproject.html">
+                            <i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>Started Creating Music App(unfinished).You can easily play any music of your choice in later days.click arrow to visit the unfinished project. </p>
+                        <a href="musicplayer/music.html">
+                            <i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png">
+                    <div class="layer">
+                        <h3>Online Shopping App</h3>
+                        <p>Coming Soon.</p>
+                        <a href="#">
+                            <i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    <!-- ---------------------conatct------------ -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-sharp fa-solid fa-paper-plane"></i>bhandaribibek733@gmail.com</p>
+                    <p><i class="fa-solid fa-phone-volume"></i>9814422778,9864405455</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/profile.php?id=100047717505359"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://twitter.com/bibEkBh077"><i class="fa-brands fa-twitter-square"></i></a>
+                        <a href="https://www.instagram.com/bibek_bhandari_10/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/bibek-bhandari-233910268/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/bbek4210"><i class="fa-brands fa-github"></i></a>
+                        <a href=" https://t.me/Bbeekk733"><i class="fa-brands fa-telegram"></i></a>
+
+                    </div>
+                    <a href="images/mycv.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text"name="Name" placeholder="Your Name" required>
+                        <input type="email"name="Email" placeholder="Your Email"required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                            
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © bbek_bhandari.<i class="fa-solid fa-heart"></i></p>
+        </div>
+
+    </div>
+
+   
+
+    <script src="index.js"></script>
+
+    
+
+  </body>
+
+  
+</html>
